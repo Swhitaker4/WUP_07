@@ -62,7 +62,14 @@ The graphs above indicate among those that died in Korea due to Covid, the major
 
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
 
+Men died from Covid almost two times the rate as women in Korea.Women made up 36% of the dead and men placed 64%.
+The data shows that few people actually died due to Covid in Korea , about 1.4% of women died and 3% of men. 
 ## Inferential results 
 
 
