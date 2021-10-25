@@ -81,3 +81,5 @@ fisher.test(table1)
 The data shows that the p value 0.001 is too low, thus we reject the null hypothesis. The death rate in Korea is dependent on sex. 
 ## Conclusions
 
+We reject the null hypothesis because the p value was too low, the men died at 2.3 times the rate than women. We conclude that the death rate of South Korean's were dependent on their sex because we found that men died at a higher rate. 
+
