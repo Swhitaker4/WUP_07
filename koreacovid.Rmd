@@ -70,10 +70,14 @@ colPerc(table1)
 
 Men died from Covid almost two times the rate as women in Korea.Women made up 36% of the dead and men placed 64%.
 The data shows that few people actually died due to Covid in Korea , about 1.4% of women died and 3% of men. 
+
 ## Inferential results 
 
-
-
-
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+The data shows that the p value 0.001 is too low, thus we reject the null hypothesis. The death rate in Korea is dependent on sex. 
 ## Conclusions
 
